@@ -1,0 +1,12 @@
+{
+  "verbose": false,
+  "restartable": "rs",
+  "events": {
+    "restart": "echo \"App restarted due to:\n'$FILENAME'\" with title \"nodemon\"'"
+  },
+  "ext": "js",
+  "watch": [
+    "src/server",
+    "src/shared"
+  ]
+}
