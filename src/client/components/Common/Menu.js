@@ -6,12 +6,15 @@ import { Link } from 'react-router'
 class Menu extends React.Component {
     render() {
         const { account } = this.props
-        return <div>
-            {account.isLoggedIn()
-                ? <LoggedInMenu/>
-                : <LoggedOutMenu/>
-            }
-        </div>
+        return (
+            <div>
+                <img src='a.png' />
+                {account.isLoggedIn()
+                    ? <LoggedInMenu/>
+                    : <LoggedOutMenu/>
+                }
+            </div>
+        )
     }
 }
 

@@ -1,11 +1,33 @@
 .tools-wrapper {
   position: fixed;
-  width: 100px;
-  min-height: 400;
-  border: 1px solid black;
+  min-height: 400px;
   background-color: white;
-  left: 0;
+  border: 1px solid #888787;
+  left: 16px;
   top: 100;
   z-index: 999;
   color: black;
+}
+
+.tools-wrapper button {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #888787;
+}
+
+.tool {
+  height: 30px;
+  width: 30px;
+  margin: 0 auto;
+}
+
+.tools-wrapper .tools-square {
+  background-color: #DFDFDF;
+  border: 1px solid #B3B3B3;
+}
+
+.tools-wrapper .tools-circle {
+  border-radius: 50%;
+  background-color: #DFDFDF;
+  border: 1px solid #B3B3B3;
 }

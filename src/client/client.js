@@ -22,9 +22,9 @@ const renderProps = (<App stores={stores}/>)
 
 // Render HTML on the browser
 render(<AppContainer>
-    <BrowserRouter>
-        {renderProps}
-    </BrowserRouter>
+  <BrowserRouter>
+      {renderProps}
+  </BrowserRouter>
 </AppContainer>, container)
 
 // Hot-reloading
